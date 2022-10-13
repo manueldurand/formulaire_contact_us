@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire contact us</title>
+</head>
+
+<body>
+    <h1>Formulaire</h1>
+    <h2>Contactez-nous</h2>
+    <form action="">
+        Sexe :
+        <input type="radio">Femme
+        <input type="radio">Homme
+        <div>
+            Nom : <input type="text" required>
+            Prénom : <input type="text" required>
+        </div><br>
+        <div>
+            Pseudo : <input type="text" required>
+        </div><br>
+        <div>
+            Age : <input type="text">
+        </div><br>
+        <div>
+            Mot de passe : <input type="password" required>
+        </div><br>
+        <div>
+            Commentaire :
+        </div>
+        <textarea name="comment" id="comment" cols="30" rows="10" required></textarea>
+
+        <div>
+            Pays : <select id="pays">
+                <option value="france" selected>France</option>
+                <option value="espagne">Espagne</option>
+        </div><br>
+        <div>
+            Souhaitez-vous être contacté par email :
+            <input type="radio">Oui
+            <input type="radio">Non
+        </div><br>
+        <div>
+            Si oui, Email : <input type="email" required>
+        </div>
+        <input type="submit" value="Validez">
+
+    </form>
+</body>
+
+</html>
